@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: demo.TestMain
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.073 s <<< FAILURE! - in demo.TestMain
+hello  Time elapsed: 0.066 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Hello!> but was: <Hello, world!>
+	at demo.TestMain.hello(TestMain.java:16)
+
+ダミーのテスト  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at demo.TestMain.ダミーのテスト(TestMain.java:10)
+

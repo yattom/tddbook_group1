@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: money.MoneyTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.065 s <<< FAILURE! - in money.MoneyTest
+testMultiplication  Time elapsed: 0.026 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <15> but was: <30>
+	at money.MoneyTest.testMultiplication(MoneyTest.java:13)
+
