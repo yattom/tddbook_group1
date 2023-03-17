@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="money.MoneyTest" time="0.035" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="money.MoneyTest" time="0.037" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/nix/store/6rikzwr29lka7p7mndvany0pqgdjmv31-openjdk-16+36/lib/openjdk/lib"/>
-    <property name="sun.java.command" value="/home/runner/tddbookgroup1/target/surefire/surefirebooter4538843098566108216.jar /home/runner/tddbookgroup1/target/surefire 2023-03-17T11-22-15_397-jvmRun1 surefire15064928872765697436tmp surefire_017491950779310677438tmp"/>
+    <property name="sun.java.command" value="/home/runner/tddbookgroup1/target/surefire/surefirebooter1823862937213933866.jar /home/runner/tddbookgroup1/target/surefire 2023-03-17T11-41-17_607-jvmRun1 surefire15356311608022984836tmp surefire_07348688583353816086tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/runner/tddbookgroup1/target/test-classes:/home/runner/tddbookgroup1/target/classes:/home/runner/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.10.1/maven-compiler-plugin-3.10.1.jar:/home/runner/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar:/home/runner/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/runner/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/home/runner/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/runner/.m2/repository/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar:/home/runner/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar:/home/runner/.m2/repository/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar:/home/runner/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.jar:/home/runner/.m2/repository/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar:/home/runner/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.11.1/plexus-compiler-manager-2.11.1.jar:/home/runner/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.11.1/plexus-compiler-javac-2.11.1.jar:/home/runner/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/runner/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/runner/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/runner/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/runner/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/runner/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/runner/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/runner/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/runner/tddbookgroup1/target/surefire/surefirebooter4538843098566108216.jar"/>
+    <property name="surefire.real.class.path" value="/home/runner/tddbookgroup1/target/surefire/surefirebooter1823862937213933866.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16+36-nixos"/>
     <property name="user.name" value="runner"/>
@@ -51,7 +51,12 @@
     <property name="java.class.version" value="60.0"/>
   </properties>
   <testcase name="testMultiplication" classname="money.MoneyTest" time="0.018"/>
+  <testcase name="testDifferentClassEquality" classname="money.MoneyTest" time="0.007">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at money.MoneyTest.testDifferentClassEquality(MoneyTest.java:36)
+]]></failure>
+  </testcase>
   <testcase name="testFrancMultiplication" classname="money.MoneyTest" time="0.001"/>
-  <testcase name="testCurrency" classname="money.MoneyTest" time="0"/>
+  <testcase name="testCurrency" classname="money.MoneyTest" time="0.001"/>
   <testcase name="testEquality" classname="money.MoneyTest" time="0.001"/>
 </testsuite>

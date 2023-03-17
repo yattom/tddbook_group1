@@ -33,6 +33,7 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 ## 2023.3.17
 - てらひで
 - じん
+- 円城寺
 - kubo
 - masashi
 
