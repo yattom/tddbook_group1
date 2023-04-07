@@ -10,6 +10,15 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 
 ## TODOリスト
 
+### Chapter 12から
+
+書籍では、Chapter12で新しくTODOリストを作り直しました
+
+- [ ] $5 + 10 CHF = $10 (レートが2:1の場合)
+- [ ] $5 + $5 = $10
+
+### Chapter 11まで
+
 - [ ] $5 + 10 CHF = $10 (レートが2:1の場合)
 - [x] $5*2 = $10
 - [x] amountをprivateにする
