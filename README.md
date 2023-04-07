@@ -20,12 +20,12 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - [ ] nullとの等価性比較
 - [ ] 他のオブジェクトとの等価性比較
 - [x] 5CHF*2=10CHF
-- [ ] DollarとFrancの重複
+- [x] DollarとFrancの重複
 - [x] equals()の一般化
 - [x] timesの一般化
 - [x] FrancとDollarを比較する
 - [x] 通貨の概念
-- [ ] testFrancMultiplicationを削除する？
+- [x] testFrancMultiplicationを削除する？
 
 
 # モブの順番
@@ -33,9 +33,9 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 ## 2023.04.07
 - Kubo
 - てらひで
+- 401
 - じん
 - masashi
-- 401
 - 円城寺
 
 ## 2023.3.17
