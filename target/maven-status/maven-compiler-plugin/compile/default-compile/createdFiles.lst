@@ -1,2 +1,5 @@
 demo/Main.class
+money/Expression.class
+money/Bank.class
+money/Sum.class
 money/Money.class
