@@ -49,6 +49,7 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - てらひで
 - masashi
 - yattom
+- 円城寺
 
 ## 2023.04.21
 - じん
