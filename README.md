@@ -20,6 +20,8 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - [x] Bank.reduce(Money)
 - [x] Moneyを変換して換算を行う
 - [x] Reduce(Bank, String)
+- [ ] Sum.plus()
+- [ ] Expression.times()
 
 ### Chapter 11まで
 
@@ -42,6 +44,14 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 
 
 # モブの順番
+
+## 2023.05.26
+- あきら
+- yattom
+- masashi
+- じん
+- 401
+- てらひで
 
 ## 2023.05.12
 - じん
