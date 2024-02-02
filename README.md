@@ -4,7 +4,7 @@
 - さてい
 - Tommy
 - 土田
-- ssss
+- yattom
 
 ## 2023.09.21
 - akira
@@ -34,6 +34,8 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - [ ] 収集したテスト結果を出力する
 
 ## 第1部 TODOリスト
+-　[] $5 + 10CHF = $10(レートが2：1の場合)
+
 ### Chapter 12から
 
 書籍では、Chapter12で新しくTODOリストを作り直しました
