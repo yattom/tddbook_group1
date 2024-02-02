@@ -35,11 +35,11 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - [ ] 収集したテスト結果を出力する
 
 ## 第1部 TODOリスト
-- [] $5 + 10CHF = $10(レートが2：1の場合)
+- [ ] $5 + 10CHF = $10(レートが2：1の場合)
 - [x] $5 * 2 = $10
-- [] amountをprivateにする
-- [] Dollarの副作用をどうする？
-- [] Moneyの丸め処理どうする？
+- [ ] amountをprivateにする
+- [x] Dollarの副作用どうする？
+- [ ] Moneyの丸め処理どうする？
 
 ### Chapter 12から
 
