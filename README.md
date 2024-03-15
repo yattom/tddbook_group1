@@ -5,7 +5,7 @@
 - 田澤
 - terahide
 - 神
--
+- ながはし
 -
 -
 
@@ -68,8 +68,14 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - [ ] Money　の丸め処理をどうする？
 - [x] equals()
 - [ ] hashCode()
-- [ ] nullとの等価性比較等価性比較
-- [ ] 他のオブジェクトとの
+- [ ] nullとの等価性比較
+- [ ] 他のオブジェクトとの等価性比較
+- [x] 5CHF * 2 = 10CHF
+- [ ] Dollar と Franc の重複
+- [x] equals の 一般化
+- [ ] times の 一般化
+- [x] FrancとDollarを比較する
+- [ ] 通貨の概念
 
 ### Chapter 12から
 
