@@ -1,6 +1,15 @@
 # Part 3 の読む順番
 
-## 204.03.01
+# 2024.03.15
+- 401
+- 田澤
+- terahide
+- 神
+-
+-
+-
+
+## 2024.03.01
 
 参加者
 - yattom
@@ -54,9 +63,13 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 ## 第1部 TODOリスト
 - [ ] $5 + 10CHF = $10 (レートが2:1の場合)
 - [x] $5 * 2 = $10
-- [ ] amount を private にする
+- [x] amount を private にする
 - [x] Dollar副作用をどうする？
 - [ ] Money　の丸め処理をどうする？
+- [x] equals()
+- [ ] hashCode()
+- [ ] nullとの等価性比較等価性比較
+- [ ] 他のオブジェクトとの
 
 ### Chapter 12から
 
