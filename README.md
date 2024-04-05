@@ -4,7 +4,8 @@
 - yattom
 - たざわ
 - てらひで
-
+- 神
+- 401
 
 # 2024.03.15
 - 401
@@ -82,6 +83,7 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - [ ] times の 一般化
 - [x] FrancとDollarを比較する
 - [ ] 通貨の概念
+- [ ] testFrancMultiplication を削除する？
 
 ### Chapter 12から
 
