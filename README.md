@@ -83,12 +83,12 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - [ ] nullとの等価性比較
 - [ ] 他のオブジェクトとの等価性比較
 - [x] 5CHF * 2 = 10CHF
-- [ ] Dollar と Franc の重複
+- [x] Dollar と Franc の重複
 - [x] equals の 一般化
 - [x] times の 一般化
 - [x] FrancとDollarを比較する
 - [x] 通貨の概念
-- [ ] testFrancMultiplication を削除する？
+- [x] testFrancMultiplication を削除する？
 
 ### Chapter 12から
 
