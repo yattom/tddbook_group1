@@ -1,4 +1,9 @@
 # Part 3 の読む順番
+# 2024.04.19
+- 401
+- てらひで
+- たざわ
+- 神
 
 # 2024.04.05
 - yattom
@@ -80,7 +85,7 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - [x] 5CHF * 2 = 10CHF
 - [ ] Dollar と Franc の重複
 - [x] equals の 一般化
-- [ ] times の 一般化
+- [x] times の 一般化
 - [x] FrancとDollarを比較する
 - [x] 通貨の概念
 - [ ] testFrancMultiplication を削除する？
