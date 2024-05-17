@@ -12,6 +12,7 @@
 
 見学者
 - えび
+- くぼ
 
  
 
@@ -117,6 +118,7 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - [x] Bank.reduce(Money)
 - [ ] Moneyを変換して換算を行う
 - [ ] Reduce(Bank, String)
+
 ### Chapter 11まで
 - [ ] $5 + 10CHF = $10 (レートが2:1の場合)
 - [x] $5 * 2 = $10
