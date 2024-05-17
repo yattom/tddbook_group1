@@ -1,3 +1,4 @@
 money/Expression.class
-money/Money.class
 money/Bank.class
+money/Sum.class
+money/Money.class
