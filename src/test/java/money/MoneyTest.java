@@ -31,11 +31,12 @@ public class MoneyTest {
   }
   @Test
   public void testPlusReturnsSum() {
-    Money five = Money.dollar(5);
-    Expression result = five.plus(five);
+    Money fiveBucks = Money.dollar(5);
+    Money tenFrancs = Money.franc(10);
+    Expression result = fiveBucks.plus(tenFrancs);
     Sum sum = (Sum) result;
-    assertEquals(five, sum.augend);
-    assertEquals(five, sum.addend);
+    assertEquals(fiveBucks, sum.augend);
+    assertEquals(tenFrancs, sum.addend);
   }
 
   @Test
@@ -92,6 +93,22 @@ public class MoneyTest {
     Expression sum = new Sum(fiveBucks, tenFrancs).times(2);
     Money result = bank.reduce(sum, "USD");
     assertEquals(Money.dollar(20), result);
+  }
+  @Test
+  public void 同じ通貨を足すとMoneyが返ること() {
+    Expression sum = Money.dollar(1).plus(Money.dollar(1));
+    // assertTrue(sum instanceof Money);
+    assertEquals(Money.dollar(2), sum);
+  }
+  @Test
+  public void MoneyのplusにSumを渡す() {
+    Expression fiveBucks = Money.dollar(5);
+    Expression tenFrancs = Money.franc(10);
+    Expression sum = new Sum(fiveBucks, tenFrancs);
+    Expression total = fiveBucks.plus(sum);
+    Bank bank = new Bank();
+    bank.addRate("CHF", "USD", 2);
+    assertEquals(Money.dollar(15), bank.reduce(total, "USD"));
   }
 }
 

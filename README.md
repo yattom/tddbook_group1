@@ -140,6 +140,7 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 - [x] Reduce(Bank, String)
 - [x] Sum.plus
 - [x] Expression.times
+- [x] Money.plus()のパラメータにSumを渡す 
 
 ### Chapter 11まで
 - [ ] $5 + 10CHF = $10 (レートが2:1の場合)
