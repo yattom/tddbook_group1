@@ -1,5 +1,15 @@
 # Part 3 の読む順番
 
+# 2024.7.5
+
+参加者
+- yattom
+- terahide
+- たざわ
+- じん
+
+見学者
+
 # 2024.06.21
 参加者
 - 401
@@ -122,12 +132,14 @@ packageを追加したときは、コンソールからmvn eclipse:eclipseを実
 
 書籍では、Chapter12で新しくTODOリストを作り直しました
 
-- [ ] $5 + 10 CHF = $10 (レートが2:1の場合)
+- [x] $5 + 10 CHF = $10 (レートが2:1の場合)
 - [x] $5 + $5 = $10
-- [ ] $5 + $5がMoneyを返す
+- [x] $5 + $5がMoneyを返す
 - [x] Bank.reduce(Money)
 - [x] Moneyを変換して換算を行う
 - [x] Reduce(Bank, String)
+- [x] Sum.plus
+- [x] Expression.times
 
 ### Chapter 11まで
 - [ ] $5 + 10CHF = $10 (レートが2:1の場合)
